@@ -1,0 +1,79 @@
+table{
+    border-style:solid;
+    border-color:black;
+    border-width:2.5px;
+}
+
+th,td{
+    padding:8px;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+
+tr:nth-child(even){
+    background-color:darkseagreen;
+}
+tr:nth-child(odd){
+    background-color: skyblue;
+}
+
+tr:hover{
+    background-color: rgb(101, 149, 198);
+}
+
+ul{
+    background-color:rgb(143, 188, 185);
+    border-style: solid;
+    border-width: 3px;
+    }
+li:nth-child(even){
+    background-color:skyblue;
+}
+li:nth-child(odd){
+    background-color: darkseagreen;
+}
+
+#box-model{
+    padding:20px;
+    border-style: solid;
+    border-width: 3px;
+    background-color: rgb(115,71,135, .4);
+}
+
+img{
+    border:3em;
+    border-color: black;
+    border-style:solid;
+    border-width:4px;
+    border-radius: 3px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(background.jpg);
+    min-height: 1000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#header{
+background-color: rgb(115,71,135, .4);
+border-width: 3px;
+border-style:solid;
+border-color: black;
+border-radius: 2px;
+text-align:center;
+}
+ 
+.footer{
+   text-align: center;
+}
+
+#comment{
+    font-weight: bold;
+}
